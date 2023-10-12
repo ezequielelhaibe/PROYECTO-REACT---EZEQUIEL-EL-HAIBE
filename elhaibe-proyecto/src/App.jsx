@@ -4,21 +4,15 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import Navbar from './componets/Navbar/Navbar'
 import Footer from "./componets/Footer/Footer"
-
+import ItemListConteiner from './componets/ItemListConteiner/ItemListConteiner'
 
 
 
 function App() {
-  const [count, setCount] = useState(0)
-
-  return (
+    return (
     <>
       <Navbar />
-      <h1>PROYECTO AGENCIA</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}</button>
-      </div>
+      <ItemListConteiner />
       <Footer />
     </>
   )
