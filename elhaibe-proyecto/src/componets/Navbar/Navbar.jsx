@@ -6,9 +6,9 @@ function Navbar () {
       <nav>
         <div>
         <ul>
-            <li>INICIO</li>
-            <li>SECCION 1</li>
-            <li>SECCION 2</li>
+            <li><a href="">INICIO</a></li>
+            <li><a href="">SECCION 1</a></li>
+            <li><a href="">SECCION 2</a></li>
           </ul>
         </div>
         <div className="botonCarrito">
